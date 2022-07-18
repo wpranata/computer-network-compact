@@ -2,7 +2,7 @@ Computer Networks Compact
 =========================
 
 Week 01: Introduction
----------------------
+=====================
 .. toctree::
    :maxdepth: 2
    :caption: Week 01: Introduction
@@ -14,7 +14,7 @@ Week 01: Introduction
    01/packet-tracer
 
 Week 02: Basic Subnetting
--------------------------
+=========================
 .. toctree::
    :maxdepth: 2
    :caption: Week 02: Basic Subnetting
