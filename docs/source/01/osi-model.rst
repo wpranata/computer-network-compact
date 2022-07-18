@@ -1,0 +1,72 @@
+OSI Model
+=========
+The **Open Systems Interconnection model (OSI model)** is a conceptual model that describes the universal standard of communication functions, without any regard to the system's underlying internal technology and specific protocol suites.
+
+In theory, every communication between devices can be described within the OSI Model.
+
+There are 7 layers within the OSI Model:
+
+OSI Layer 7 - Application
+-------------------------
+Application is the software that initiated the communication.
+
+Application is the closest layer to the user, since users typically use applications to interact with the network.
+
+Common examples include:
+
+- Internet Browser (Chrome, Firefox, Brave, etc.)
+- Online Games (more specifically, the networking library used within the code)
+- Remote Applications
+- Remote File Managers
+
+OSI Layer 6 - Presentation
+--------------------------
+Presentation layer establishes data formatting and translation into a specific format.
+
+Common examples include:
+
+- HTTP / HTTPS
+- FTP
+- SSH
+- SMB
+- SMTP
+
+OSI Layer 5 - Session
+---------------------
+Session layer establishes, maintans, and terminates the 'connection' between 2 devices.
+
+Common examples include:
+
+- Name lookups using DNS
+- Authentication
+- Session establishment
+
+OSI Layer 4 - Transport
+-----------------------
+Transport layer provides the procedural means of transferring data.
+
+Some parameters, such as **connection reliability** and **packet size** are considered in this layer.
+
+This is where the data might require chunking into data segments, since the Network Layer (OSI Layer 3) imposes a maximum packet size.
+
+Common examples include:
+
+- TCP
+- UDP
+- TLS (technically TLS belongs in the HTTPS Presentation Layer)
+
+OSI Layer 3 - Network
+---------------------
+Network layer provides the means of data transmission between networks, using ``IP Addresses``.
+
+Routers operate in this layer.
+
+OSI Layer 2 - Data Link
+-----------------------
+Data Link layer provides the means of data transmission between two connected nodes, using ``MAC Addresses``.
+
+Switches operate in this layer.
+
+OSI Layer 1 - Physical
+----------------------
+Physical layer provides the means of data transmission between two components, typically through conductors, such as cables or copper pins.
