@@ -6,6 +6,8 @@ In theory, every communication between devices can be described within the OSI M
 
 There are 7 layers within the OSI Model:
 
+.. _osi7:
+
 OSI Layer 7 - Application
 -------------------------
 Application is the software that initiated the communication.
@@ -19,6 +21,8 @@ Common examples include:
 - Remote Applications
 - Remote File Managers
 
+.. _osi6:
+
 OSI Layer 6 - Presentation
 --------------------------
 Presentation layer establishes data formatting and translation into a specific format.
@@ -31,6 +35,8 @@ Common examples include:
 - SMB
 - SMTP
 
+.. _osi5:
+
 OSI Layer 5 - Session
 ---------------------
 Session layer establishes, maintans, and terminates the 'connection' between 2 devices.
@@ -41,31 +47,39 @@ Common examples include:
 - Authentication
 - Session establishment
 
+.. _osi4:
+
 OSI Layer 4 - Transport
 -----------------------
 Transport layer provides the procedural means of transferring data.
 
 Some parameters, such as **connection reliability** and **packet size** are considered in this layer.
 
-This is where the data might require chunking into data segments, since the Network Layer (OSI Layer 3) imposes a maximum packet size.
+This is where the data might require chunking into data segments, since the :ref:`Network Layer (OSI Layer 3)<osi3>` imposes a maximum packet size.
 
 Common examples include:
 
 - TCP
 - UDP
-- TLS (technically TLS belongs in the HTTPS Presentation Layer)
+- TLS (technically TLS belongs in the HTTPS :ref:`Presentation Layer<osi6>`)
+
+.. _osi3:
 
 OSI Layer 3 - Network
 ---------------------
-Network layer provides the means of data transmission between networks, using ``IP Addresses``.
+Network layer provides the means of data transmission between networks, using :ref:`IP Addresses<ip>`.
 
-Routers operate in this layer.
+:ref:`Routers<router>` operate in this layer.
+
+.. _osi2:
 
 OSI Layer 2 - Data Link
 -----------------------
-Data Link layer provides the means of data transmission between two connected nodes, using ``MAC Addresses``.
+Data Link layer provides the means of data transmission between two connected nodes, using :ref:`MAC Addresses<mac>`.
 
-Switches operate in this layer.
+:ref:`Switches<switch>` operate in this layer.
+
+.. _osi1:
 
 OSI Layer 1 - Physical
 ----------------------

@@ -2,6 +2,8 @@ Network Devices
 ===============
 Commonly speaking, there are 3 types of network devices:
 
+.. _endpoint:
+
 Endpoint
 --------
 
@@ -18,6 +20,8 @@ Typical endpoints include:
 - Smartphones
 - Printers
 
+.. _switch:
+
 Switch
 ------
 
@@ -26,13 +30,15 @@ Switch
 
 Switch is a device used as a bridge between endpoints within the same network.
 
-Switches can forward data from one device to another by their MAC Address (OSI Layer 2 - Data Link).
+Switches can forward data from one device to another by their :ref:`MAC Address<mac>` (:ref:`OSI Layer 2 - Data Link<osi2>`).
 
 .. note::
 
     Some switches have the capability to forward data by IP.
 
     They are called `Multilayer Switches <https://en.wikipedia.org/wiki/Multilayer_switch>`_.
+
+.. _router:
 
 Router
 ------
@@ -42,7 +48,7 @@ Router
 
 Router is a device used as a bridge between different networks.
 
-Routers can forward data from one network to another by their IP Address (OSI Layer 3 - Network).
+Routers can forward data from one network to another by their :ref:`IP Address<ip>` (:ref:`OSI Layer 3 - Network<osi3>`).
 
 .. note::
 

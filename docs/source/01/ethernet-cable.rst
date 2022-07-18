@@ -18,8 +18,8 @@ There are 2 basic configurations:
 
 Straight-Through
 ~~~~~~~~~~~~~~~~
-Straight-Through cables are used to connect Endpoints and non-endpoint devices.
+Straight-Through cables are used to connect :ref:`Endpoints<endpoint>` and :ref:`non-endpoint<endpoint>` devices.
 
 Cross-Over
 ~~~~~~~~~~
-Cross-Over cables are used to connect Endpoints and Endpoints, or non-endpoint and non-endpoint devices.
+Cross-Over cables are used to connect :ref:`Endpoints<endpoint>` and :ref:`Endpoints<endpoint>`, or :ref:`non-endpoint<endpoint>` and :ref:`non-endpoint<endpoint>` devices.
