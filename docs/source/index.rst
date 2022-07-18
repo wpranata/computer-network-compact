@@ -1,9 +1,10 @@
 Computer Networks Compact
 =========================
 
+Week 01: Introduction
+=====================
 .. toctree::
    :maxdepth: 2
-   :caption: Week 01: Introduction
 
    01/network
    01/network-devices
@@ -11,9 +12,10 @@ Computer Networks Compact
    01/ethernet-cable
    01/packet-tracer
 
+Week 02: Basic Subnetting
+=========================
 .. toctree::
    :maxdepth: 2
-   :caption: Week 02: Basic Subnetting
 
    02/network-identifiers
    02/flsm
