@@ -4,7 +4,7 @@ Computer Networks 01
 Week 01: Introduction
 =====================
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Week 01: Introduction
 
    01/network
