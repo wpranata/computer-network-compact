@@ -21,3 +21,19 @@ Week 02: Basic Subnetting
 
    02/network-identifiers
    02/flsm
+
+Week 03: Advanced Subnetting
+============================
+.. toctree::
+   :maxdepth: 2
+   :caption: Week 03: Advanced Subnetting
+
+   03/vlsm
+
+Week 04: Static Routing
+=======================
+.. toctree::
+   :maxdepth: 2
+   :caption: Week 04: Static Routing
+
+   04/static-routing
