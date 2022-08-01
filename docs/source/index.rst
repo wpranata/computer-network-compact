@@ -37,3 +37,11 @@ Week 04: Static Routing
    :caption: Week 04: Static Routing
 
    04/static-routing
+
+Week 05: Access List
+=======================
+.. toctree::
+   :maxdepth: 2
+   :caption: Week 05: Access List
+
+   05/access-list
